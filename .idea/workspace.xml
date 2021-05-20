@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b2d95c-4a4c-421a-bcce-33bcba9f9c6d" name="Default Changelist" comment="" />
+    <list default="true" id="65b2d95c-4a4c-421a-bcce-33bcba9f9c6d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarBundle/Controller/CarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Controller/CarController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Resources/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarBundle/Service/DataChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Service/DataChecker.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +83,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="//wsl$/Ubuntu-20.04/home/gvicu/projects/qdn_docker/qdn" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -104,10 +110,24 @@
       <workItem from="1621364032723" duration="3129000" />
       <workItem from="1621398054944" duration="1223000" />
       <workItem from="1621448327665" duration="619000" />
+      <workItem from="1621485837511" duration="5483000" />
+      <workItem from="1621516037510" duration="269000" />
+      <workItem from="1621523340785" duration="7016000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
