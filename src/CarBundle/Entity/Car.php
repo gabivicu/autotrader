@@ -62,6 +62,12 @@ class Car
      */
     private $navigation;
 
+    /**
+     * @var boolean
+     * @ORM\Column(name="promote", type="boolean")
+     */
+    private $promote;
+
 
     /**
      * Get id
@@ -216,4 +222,22 @@ class Car
     {
         return $this->make;
     }
+
+    /**
+     * @return bool
+     */
+    public function isPromote()
+    {
+        return $this->promote;
+    }
+
+    /**
+     * @param bool $promote
+     */
+    public function setPromote($promote)
+    {
+        $this->promote = $promote;
+    }
+
+
 }

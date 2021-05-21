@@ -5,27 +5,38 @@ namespace CarBundle\Service;
 
 
 use CarBundle\Entity\Car;
+use Doctrine\ORM\EntityManager;
 
 class DataChecker
 {
     /** @var boolean */
-    protected $requireImagesToPromotCar;
+    protected $requireImagesToPromoteCar;
+
+    /** @var EntityManager */
+    protected $entityManager;
 
     /**
      * DataChecker constructor.
-     * @param bool $requireImagesToPromotCar
+     * @param EntityManager $entityManager
+     * @param bool $requireImagesToPromoteCar
      */
-    public function __construct($requireImagesToPromotCar)
+    public function __construct($entityManager, $requireImagesToPromoteCar)
     {
-        $this->requireImagesToPromotCar = $requireImagesToPromotCar;
+        $this->requireImagesToPromoteCar = $requireImagesToPromoteCar;
+        $this->entityManager             = $entityManager;
     }
 
 
     public function checkCar(Car $car)
     {
-        if($this->requireImagesToPromotCar){
-            return false;
+        $promote = true;
+        if($this->requireImagesToPromoteCar){
+            $promote = false;
         }
-        return true;
+
+        $car->setPromote($promote);
+        $this->entityManager->persist($car);
+        $this->entityManager->flush();
+        return $promote;
     }
 }

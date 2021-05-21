@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="65b2d95c-4a4c-421a-bcce-33bcba9f9c6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarBundle/Controller/CarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Controller/CarController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarBundle/Entity/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Entity/Car.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CarBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Resources/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarBundle/Resources/views/car/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Resources/views/car/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CarBundle/Service/DataChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Service/DataChecker.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="//wsl$/Ubuntu-20.04/home/gvicu/projects/qdn_docker/qdn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -112,7 +112,9 @@
       <workItem from="1621448327665" duration="619000" />
       <workItem from="1621485837511" duration="5483000" />
       <workItem from="1621516037510" duration="269000" />
-      <workItem from="1621523340785" duration="7016000" />
+      <workItem from="1621523340785" duration="7428000" />
+      <workItem from="1621572378959" duration="2274000" />
+      <workItem from="1621620724456" duration="3526000" />
     </task>
     <servers />
   </component>
@@ -129,5 +131,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/CarBundle/Resources/views/car/index.html.twig</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
