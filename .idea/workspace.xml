@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="65b2d95c-4a4c-421a-bcce-33bcba9f9c6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarBundle/Entity/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Entity/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Resources/config/services.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarBundle/Resources/views/car/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Resources/views/car/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarBundle/Service/DataChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Service/DataChecker.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +110,8 @@
       <workItem from="1621516037510" duration="269000" />
       <workItem from="1621523340785" duration="7428000" />
       <workItem from="1621572378959" duration="2274000" />
-      <workItem from="1621620724456" duration="3526000" />
+      <workItem from="1621620724456" duration="4255000" />
+      <workItem from="1621660876781" duration="3615000" />
     </task>
     <servers />
   </component>
