@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b2d95c-4a4c-421a-bcce-33bcba9f9c6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarBundle/Command/AbcCheckCarsCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Command/AbcCheckCarsCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Resources/config/services.yml" afterDir="false" />
-    </list>
+    <list default="true" id="65b2d95c-4a4c-421a-bcce-33bcba9f9c6d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +87,12 @@
       <recent name="C:\xampp\htdocs\autotrader\src\CarBundle\Resources\views" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -114,7 +116,7 @@
       <workItem from="1621572378959" duration="2274000" />
       <workItem from="1621620724456" duration="4255000" />
       <workItem from="1621660876781" duration="3615000" />
-      <workItem from="1621745286203" duration="2424000" />
+      <workItem from="1621745286203" duration="3171000" />
     </task>
     <servers />
   </component>
