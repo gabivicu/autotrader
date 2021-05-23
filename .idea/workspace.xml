@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="65b2d95c-4a4c-421a-bcce-33bcba9f9c6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarBundle/Command/AbcCheckCarsCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Command/AbcCheckCarsCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarBundle/Resources/config/services.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +114,7 @@
       <workItem from="1621572378959" duration="2274000" />
       <workItem from="1621620724456" duration="4255000" />
       <workItem from="1621660876781" duration="3615000" />
+      <workItem from="1621745286203" duration="2424000" />
     </task>
     <servers />
   </component>
@@ -123,7 +126,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
